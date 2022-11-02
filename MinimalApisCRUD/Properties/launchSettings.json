@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "swagger/index.html",
+      "applicationUrl": "https://apimibuenseguroapi.azurewebsites.net/",
       "sslPort": 44364
     }
   },
@@ -13,7 +13,7 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "swagger/index.html",
+      "applicationUrl": "https://apimibuenseguroapi.azurewebsites.net/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
