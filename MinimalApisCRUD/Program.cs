@@ -87,12 +87,12 @@ app.MapPost("/api/proveedor/{nit}/{IdAfiliado}/{FechaNacimiento}/{FechaCobertura
         }
         else 
         {
-            return Results.NotFound("Afiliado no encontrado");
+            return Results.Ok("Afiliado no encontrado");
         }
     }
     else 
     {
-        return Results.NotFound("Proveedor no encontrado");
+        return Results.Ok("Proveedor no encontrado");
     }
 
 });
