@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'ApiMiBuenSeguroApi'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AC76A32E2F8840838FC8C5D7FD5866A5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_73FE68587A6C4C84BB52CE1F3BC25BC5 }}
           package: .
